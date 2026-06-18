@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "Nasalization Rg";
+  src: url("./assets/fonts/Nasalization%20Rg.otf") format("opentype");
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: #000;
+  font-family: "Nasalization Rg", sans-serif;
+}
+
+.wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  display: flex;
+  padding: 2em;
+}
+
+.nav-item:nth-child(1) {
+  flex: 3;
+}
+
+.nav-item:nth-child(2) {
+  flex: 2;
+  display: flex;
+}
+
+.nav-item:nth-child(2) p {
+  flex: 1;
+}
+
+p {
+  font-weight: 500;
+  color: #fff;
+  opacity: 0.5;
+  letter-spacing: 0;
+}
+
+.header {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.header h1 {
+  text-transform: uppercase;
+  font-family: "Nasalization Rg", sans-serif;
+  font-size: 14vw;
+  font-weight: 300;
+  color: #fff;
+  text-align: center;
+  line-height: 100%;
+}
+
+video,
+img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 24px;
+}
+
+.video-container,
+.img-container {
+  position: absolute;
+  width: 350px;
+  height: 250px;
+  transform: translateY(-50%);
+  pointer-events: none;
+}
+
+.cursor {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background: #fff;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  z-index: -1;
+}
