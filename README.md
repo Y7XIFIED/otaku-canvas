@@ -2,9 +2,6 @@
 
 <p align="center"><img src="https://skillicons.dev/icons?i=html,css,js,vite" /></p>
 
-## 🎬 Preview
-![Preview Demo](preview.gif)
-
 ## 🚀 Live Website
 Experience the fully interactive website live here:
 [Live Demo](https://otaku-canvas.vercel.app)
