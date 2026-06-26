@@ -43,15 +43,15 @@ Otaku-Canvas/
 │   ├── fonts
 │   │   └── Nasalization Rg.otf
 │   └── img
-│       ├── cursor.png
-│       ├── ig-img-1.jpg
-│       ├── ig-img-2.jpg
-│       ├── ig-img-3.jpg
-│       ├── ig-img-4.jpg
-│       ├── ig-img-5.jpg
-│       ├── ig-img-6.jpg
-│       ├── ig-img-7.jpg
-│       └── ig-img-8.jpg
+│       ├── 1.png
+│       ├── 2.jpg
+│       ├── 3.jpg
+│       ├── 4.jpg
+│       ├── 5.jpg
+│       ├── 6.jpg
+│       ├── 7.jpg
+│       ├── 8.jpg
+│       └── 9.jpg
 ├── favicon.png
 ├── index.html
 ├── package-lock.json
